@@ -48,15 +48,15 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
+        android:autofillHints=""
         android:ems="10"
         android:hint="Digite seu nome"
         android:inputType="textPersonName"
-        android:textColorHint="#78909C"
+        android:textColorHint="#757575"
         android:textSize="20sp"
         app:layout_constraintBaseline_toBaselineOf="@+id/tvNome"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/tvNome"
-        android:autofillHints=""
         tools:ignore="HardcodedText" />
 
     <EditText
@@ -65,15 +65,15 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
+        android:autofillHints=""
         android:ems="10"
         android:hint="Digite seu e-mail"
         android:inputType="textPersonName|textEmailAddress"
-        android:textColorHint="#78909C"
+        android:textColorHint="#757575"
         android:textSize="20sp"
         app:layout_constraintBaseline_toBaselineOf="@+id/tvEmail"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/tvEmail"
-        android:autofillHints=""
         tools:ignore="HardcodedText" />
 
     <EditText
@@ -82,15 +82,15 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
+        android:autofillHints=""
         android:ems="10"
         android:hint="Digite sua nota 1"
         android:inputType="number"
-        android:textColorHint="#78909C"
+        android:textColorHint="#757575"
         android:textSize="20sp"
         app:layout_constraintBaseline_toBaselineOf="@+id/tvNota1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/tvNota1"
-        android:autofillHints=""
         tools:ignore="HardcodedText" />
 
     <EditText
@@ -99,15 +99,15 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
+        android:autofillHints=""
         android:ems="10"
         android:hint="Digite sua nota 2"
         android:inputType="number"
-        android:textColorHint="#78909C"
+        android:textColorHint="#757575"
         android:textSize="20sp"
         app:layout_constraintBaseline_toBaselineOf="@+id/tvNota2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/tvNota2"
-        android:autofillHints=""
         tools:ignore="HardcodedText" />
 
     <ImageView
